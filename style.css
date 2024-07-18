@@ -1,0 +1,79 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #d7bcb0, #373fcd, #27d9df);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.centered {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.fs-xxl {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.flex-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    color: #373fcd;
+}
+
+.flex-icons>img {
+    /* height: 30px; */
+    /* display: flex; */
+}
+
+footer {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+}
